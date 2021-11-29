@@ -30,7 +30,7 @@ const Header = () => {
     <div>
       <Card className="bg-dark text-white">
         <Card.Img
-          src="./images/headerBackground.jpeg"
+          src="https://github.com/susanpant7/realState/blob/main/public/images/headerBackground.jpeg"
           alt="Header BkGr image"
           style={{ height: "450px",opacity:'0.7' }}
         />
