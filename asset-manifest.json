@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/realState/static/css/main.cebb1ba3.chunk.css",
+    "main.js": "/realState/static/js/main.6983c93c.chunk.js",
+    "main.js.map": "/realState/static/js/main.6983c93c.chunk.js.map",
+    "runtime-main.js": "/realState/static/js/runtime-main.45f2a203.js",
+    "runtime-main.js.map": "/realState/static/js/runtime-main.45f2a203.js.map",
+    "static/css/2.23be2b8a.chunk.css": "/realState/static/css/2.23be2b8a.chunk.css",
+    "static/js/2.87f865d6.chunk.js": "/realState/static/js/2.87f865d6.chunk.js",
+    "static/js/2.87f865d6.chunk.js.map": "/realState/static/js/2.87f865d6.chunk.js.map",
+    "static/js/3.1af97533.chunk.js": "/realState/static/js/3.1af97533.chunk.js",
+    "static/js/3.1af97533.chunk.js.map": "/realState/static/js/3.1af97533.chunk.js.map",
+    "index.html": "/realState/index.html",
+    "static/css/2.23be2b8a.chunk.css.map": "/realState/static/css/2.23be2b8a.chunk.css.map",
+    "static/css/main.cebb1ba3.chunk.css.map": "/realState/static/css/main.cebb1ba3.chunk.css.map",
+    "static/js/2.87f865d6.chunk.js.LICENSE.txt": "/realState/static/js/2.87f865d6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45f2a203.js",
+    "static/css/2.23be2b8a.chunk.css",
+    "static/js/2.87f865d6.chunk.js",
+    "static/css/main.cebb1ba3.chunk.css",
+    "static/js/main.6983c93c.chunk.js"
+  ]
+}
