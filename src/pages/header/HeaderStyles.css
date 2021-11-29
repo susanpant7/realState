@@ -1,0 +1,23 @@
+.logo {
+  font-weight: bold;
+  font-style: italic;
+  font-size: xx-large;
+  color: aliceblue !important;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  color: aquamarine;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: azure;
+}
+
+
+
+@media (max-width: 992px){
+  #headerSearchForm{
+    display: none;
+  }
+}
