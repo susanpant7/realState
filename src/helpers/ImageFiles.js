@@ -1,4 +1,3 @@
-import h1 from "../images/house1.jpeg";
 export const HomePageImages = [
   {
     original: "../images/house1.jpeg",
