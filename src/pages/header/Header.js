@@ -11,17 +11,12 @@ import { Link } from "react-router-dom";
 // import { IoMdTabletPortrait } from "react-icons/io";
 // import { useState } from "react";
 
-import {
-  Navbar,
-  Container,
-  Nav,
-  Card,
-} from "react-bootstrap";
+import { Navbar, Container, Nav, Card } from "react-bootstrap";
 
-import {BsFacebook,BsInstagram,BsTwitter} from "react-icons/bs"
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
-
-import HeaderSearchForm from "../../components/HeaderSearchForm/HeaderSearchForm";
+import HeaderImg from '../../images/headerBackground.jpeg';
+// import HeaderSearchForm from "../../components/HeaderSearchForm/HeaderSearchForm";
 
 const Header = () => {
   // const [selected, setSelected] = useState("home");
@@ -30,9 +25,9 @@ const Header = () => {
     <div>
       <Card className="bg-dark text-white">
         <Card.Img
-          src="https://github.com/susanpant7/realState/blob/main/public/images/headerBackground.jpeg"
+          src={HeaderImg}
           alt="Header BkGr image"
-          style={{ height: "450px",opacity:'0.7' }}
+          style={{ height: "450px", opacity: "0.7" }}
         />
         <Card.ImgOverlay>
           <Card.Text>
@@ -55,7 +50,7 @@ const Header = () => {
                     </Nav.Link> */}
                   </Nav>
                   <Nav>
-                    <Nav.Link href="https://www.facebook.com" target="_blank" >
+                    <Nav.Link href="https://www.facebook.com" target="_blank">
                       <BsFacebook />
                     </Nav.Link>
                     <Nav.Link href="https://www.instagram.com" target="_blank">
