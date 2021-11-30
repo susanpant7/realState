@@ -27,8 +27,8 @@ const ImageAndDescription = () => {
             return (
               <Card style={{ margin: "2rem" }}>
                 <div className="row" key={index}>
-                  <div className="col-md-7" style={{ margin: "1rem" }}>
-                    <Card style={{ width: "30rem" }}>
+                  <div className="col-md-6" style={{ margin: "1rem" }}>
+                    <Card>
                       <Card.Img variant="top" src={item.imageUrl} />
                       <Card.Body>
                         <Card.Title>{item.title}</Card.Title>
@@ -44,7 +44,7 @@ const ImageAndDescription = () => {
                       </Card.Body>
                     </Card>
                   </div>
-                  <div className="col-md-4" style={{ marginTop: "4rem" }}>
+                  <div className="col-md-5" style={{ marginTop: "4rem" }}>
                     {item.description} <br />
                   </div>
                 </div>
