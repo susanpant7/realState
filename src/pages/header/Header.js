@@ -34,7 +34,7 @@ const Header = () => {
             <Navbar collapseOnSelect expand="lg">
               <Container>
                 <Navbar.Brand as={Link} to="/" className="logo">
-                  Real State Agency
+                  Dubaimoz
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

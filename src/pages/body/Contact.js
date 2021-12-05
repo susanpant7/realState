@@ -32,6 +32,8 @@ const Contact = () => {
       position: toast.POSITION.TOP_CENTER,
     });
     e.preventDefault();
+    emptyState();
+    return;
     var message = `${fromMessage} ==> 
                     Sent By: ${fromName}  , 
                     Contact Email: ${fromEmail}   , 
@@ -62,6 +64,16 @@ const Contact = () => {
           });
         }
       );
+    emptyState();
+  };
+
+  const emptyState = () => {
+    debugger;
+    setFromName("");
+    setFromEmail("");
+    setFromAddress("");
+    setFromNumber("");
+    setFromMessage("");
   };
 
   return (
@@ -75,6 +87,7 @@ const Contact = () => {
               type="text"
               name="from_name"
               placeholder="Enter your name"
+              value={fromName}
               onChange={(e) => onInputChange(e, "name")}
             />
           </Form.Group>
@@ -85,6 +98,7 @@ const Contact = () => {
               type="email"
               name="from_email"
               placeholder="Enter your email address"
+              value={fromEmail}
               onChange={(e) => onInputChange(e, "email")}
             />
           </Form.Group>
@@ -95,6 +109,7 @@ const Contact = () => {
               type="number"
               name="number"
               placeholder="Enter your contact number"
+              value={fromNumber}
               onChange={(e) => onInputChange(e, "number")}
             />
           </Form.Group>
@@ -105,6 +120,7 @@ const Contact = () => {
               type="text"
               name="address"
               placeholder="Enter your contact address"
+              value={fromAddress}
               onChange={(e) => onInputChange(e, "address")}
             />
           </Form.Group>
@@ -114,6 +130,7 @@ const Contact = () => {
               required
               as="textarea"
               rows={4}
+              value={fromMessage}
               onChange={(e) => onInputChange(e, "message")}
             />
           </Form.Group>
