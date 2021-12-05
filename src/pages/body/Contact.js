@@ -71,6 +71,7 @@ const Contact = () => {
           <Form.Group controlId="form.Name">
             <Form.Label>From</Form.Label>
             <Form.Control
+              required
               type="text"
               name="from_name"
               placeholder="Enter your name"
@@ -80,6 +81,7 @@ const Contact = () => {
           <Form.Group controlId="form.Email">
             <Form.Label>Email address</Form.Label>
             <Form.Control
+              required
               type="email"
               name="from_email"
               placeholder="Enter your email address"
@@ -89,6 +91,7 @@ const Contact = () => {
           <Form.Group controlId="form.Number">
             <Form.Label>Contact Number</Form.Label>
             <Form.Control
+              required
               type="number"
               name="number"
               placeholder="Enter your contact number"
@@ -98,6 +101,7 @@ const Contact = () => {
           <Form.Group controlId="form.Address">
             <Form.Label>Contact Address</Form.Label>
             <Form.Control
+              required
               type="text"
               name="address"
               placeholder="Enter your contact address"
@@ -107,6 +111,7 @@ const Contact = () => {
           <Form.Group controlId="form.Textarea">
             <Form.Label>Message</Form.Label>
             <Form.Control
+              required
               as="textarea"
               rows={4}
               onChange={(e) => onInputChange(e, "message")}
