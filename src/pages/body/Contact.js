@@ -33,7 +33,6 @@ const Contact = () => {
     });
     e.preventDefault();
     emptyState();
-    return;
     var message = `${fromMessage} ==> 
                     Sent By: ${fromName}  , 
                     Contact Email: ${fromEmail}   , 
