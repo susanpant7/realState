@@ -22,8 +22,11 @@ const Contact = () => {
         return setFromNumber(e.target.value);
       case "message":
         return setFromMessage(e.target.value);
+      default:
+        return "";
     }
   };
+
   const sendEmail = (e) => {
     toast.info("Mail Is Being Sent !", {
       position: toast.POSITION.TOP_CENTER,
