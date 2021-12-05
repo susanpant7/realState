@@ -4,6 +4,10 @@ import "react-image-gallery/styles/css/image-gallery.css"
 import Header from "./pages/header/Header";
 import Footer from "./pages/footer/Footer";
 import Body from "./pages/body/Body";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 function App() {
   return (
@@ -11,6 +15,7 @@ function App() {
       <Header />
       <Body />
       <Footer />
+      <ToastContainer />
     </>
   );
 }
