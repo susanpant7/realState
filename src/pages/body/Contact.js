@@ -37,14 +37,14 @@ const Contact = () => {
                   `;
     emailjs
       .send(
-        "service_z7lkf22",
-        "template_ootje4m",
+        "service_odr8hdt",
+        "template_wfuy1ff",
         {
           from_name: fromName,
           message: message,
           from_email: fromName,
         },
-        "user_s2FUXazGbkySoWbMnlkA8"
+        "user_6IIXAOjuEkopi65FoBKgQ"
       )
       .then(
         (result) => {
